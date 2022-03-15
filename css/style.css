@@ -1,0 +1,91 @@
+* {
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+  }
+  
+  body {
+    font-family: 'Gruppo', cursive;
+    font-size: 20px;
+    min-height: 400px;
+    background-image: url("https://cdnb.artstation.com/p/assets/images/images/041/128/693/large/amanda-brotto-splash-anfitriao.jpg?1630852698");
+    background-color: #000000;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .page-title {
+    color: #ffffff;
+    margin: 0 0 5px;
+  }
+  
+  .page-subtitle {
+    color: #ffffff;
+    margin-top: 5px;
+  }
+  
+  .page-logo {
+    width: 200px;
+  }
+  
+  .alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+  table {
+    border: 1px solid white;
+    border-collapse: collapse;
+  }
+  
+  h1 {
+    /*font-family: 'Tourney', cursive;*/
+    font-family: 'Press Start 2P', cursive;
+    font-size: 30px;
+    color: white;
+  }
+  
+  th,
+  tr,
+  td {
+    font-size: 20px;
+    font-weight: bolder;
+    padding: 8px;
+    border: solid 1px white;
+    color: white;
+  }
+
+  .inputJogador {
+      padding: 20px 0px 25px 0px;
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+  }
+
+  input {
+    padding: 6px;
+    border-radius: 5px;
+    text-align: center;
+  }
+
+  button {
+    font-family: 'Gruppo', cursive;
+    font-weight: bolder;
+    padding: 8px;
+    border-radius: 10px;
+    background: #ffffff;
+  }
+
+  img {
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+  }

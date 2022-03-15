@@ -1,0 +1,41 @@
+<html>
+    <head>
+    <title>
+    Imersão Dev - Aula 06
+    </title>
+    <link href="css/style.css" rel="stylesheet">
+    <!--<link href="https://fonts.googleapis.com/css2?family=Tourney&display=swap" rel="stylesheet">-->
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Gruppo&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <h1>Tabela de pontuação</h1>
+            <section class="inputJogador">
+                <section>
+                    <input type="text" id="nomeJogador" placeholder="Digite o nome do jogador" />
+                    <input type="text" id="avatarUrl" placeholder="Cole a URL da imagem" />
+                    <button type="submit" class="adicionarJogador" onclick="adicionarJogador()">Adicionar jogador</button>
+                </section>
+                <section>
+                    <button type="submit" class="zerarPlacar" onclick="zerarPlacar()">Zerar placar</button>
+                </section>
+            </section>  
+            <table style="width:100%">
+                <thead>
+                    <tr>
+                        <th>Avatar</th>
+                        <th>Nome</th>
+                        <th>Vitórias</th>
+                        <th>Empates</th>
+                        <th>Derrotas</th>
+                        <th>Pontos</th>
+                        <th colspan="4">Ações</th>
+                    </tr>
+                </thead>
+                <tbody id="tabelaJogadores"></tbody>
+            </table>
+        </div>
+        <script src="js/script.js"></script>
+    </body>
+</html>
